@@ -1,0 +1,98 @@
+.bh-father-hero2
+{
+    height: 50vh;
+    width: 100%;
+    margin-top: 41px ;    
+    position: relative;
+}
+.bh-hero2{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+.bh-bg-hero2{
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background : linear-gradient( to left , #062a86 , #172b5a, rgb(24, 22, 22) );
+    opacity: 0.78;
+}
+.bh-hero2-line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50vh;
+    width: 30%;
+}
+.bh-hero2-element{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50vh;
+}
+.bh-hero2-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.bh-hero2-title h2{
+    color: white;
+    font-family: "Rajdhani", sans-serif ;
+    font-weight: bolder;
+}
+.bh-hero2-title p{
+    color: white;
+    font-size: 11px;
+}
+.bh-hero2-point{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #384bff;
+    border: 1px solid #384bff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.bh-hero2-about-point{
+    position: absolute;
+    top: 22px;
+    left: 27%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #384bff;
+    border: 1px solid #384bff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+@media (max-width : 576px) {
+    .bh-hero2-title h2{
+        font-size: 40px;
+    }
+    .bh-hero2-title p{
+        font-size: 15px;
+    }
+    .bh-hero2-element{
+        object-fit: none;
+    }
+    .bh-hero2-line{
+        width: 65%;
+    }
+    .bh-hero2-point{
+        display: flex;
+    }
+    .bh-hero2-about-point{
+        display: flex;
+    }
+}

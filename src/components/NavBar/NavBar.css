@@ -1,0 +1,247 @@
+.NavBar {
+  width: 85%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%);
+  border: 6px solid #c3c8ff;
+  border-top: 0;
+  border-radius: 45px;
+  position: fixed;
+  box-shadow: 0 4px 5px rgba(128, 128, 128, 0.5);
+  font-weight: 500;
+  background-color: white;
+}
+.NavBar div img {
+  width: 120px;
+}
+.NavBar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+  margin: 0;
+}
+.NavBar ul li a,
+.NavBar2 ul li a {
+  color: #0f0d1d;
+  text-decoration: none;
+  font-size: 13px;
+}
+.NavBar ul .bh-close-menu,
+.NavBar2 ul .bh-close-menu {
+  display: none;
+  font-size: 25px;
+  font-weight: bolder;
+  border-bottom: 3px dashed rgb(255, 255, 255);
+  width: 100%;
+  padding: 5px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.NavBar .bh-side2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+  width: 30%;
+}
+.NavBar .bh-side2 a,
+.NavBar2 .bh-nav2-side2 a {
+  margin: 0 8px;
+  color: #384bff;
+  font-size: 15px;
+}
+.NavBar .bh-side2 .bh-NavBar-bars,
+.NavBar2 .bh-nav2-side2 .bh-NavBar-bars {
+  display: none;
+  margin: 0 10px;
+  color: #384bff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.NavBar .bh-side2 button,
+.NavBar2 .bh-nav2-side2 .bh-bg-button-nav2 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #384bff;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.NavBar .bh-side2 button:hover {
+  background-color: rgba(56, 76, 255, 0.9);
+}
+.NavBar .bh-side2 button span,
+.NavBar2 .bh-nav2-side2 button span {
+  margin-left: 5px;
+}
+.NavBar2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%);
+  box-shadow: 0 4px 5px rgba(128, 128, 128, 0.5);
+  font-weight: 500;
+  background-color: white;
+}
+.NavBar2 .bh-nav2-img {
+  height: 100% !important;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.NavBar2 .bh-nav2-img img {
+  width: 80px;
+}
+.NavBar2 .bh-nav2-img .bh-img-plane {
+  width: 60px;
+}
+.NavBar2 ul {
+  display: flex;
+  justify-content: end;
+  align-items: center !important;
+  list-style: none;
+  width: 40%;
+  margin: 0;
+  margin-left: 30px;
+}
+.NavBar2 ul li a {
+  display: flex;
+  align-items: center !important;
+  font-size: 13px !important;
+  margin-right: 15px;
+}
+.NavBar2 .bh-nav2-side2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  height: 100%;
+}
+.NavBar2 .bh-nav2-side2 .bh-nav2-triangal-btn {
+  display: flex;
+  position: relative;
+}
+.bh-triangle-left {
+  position: absolute;
+  left: -22px;
+  width: 0;
+  height: 0;
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-right: 22px solid #384bff;
+  transform: rotate(-4deg);
+}
+.NavBar2 .bh-nav2-side2 .bh-bg-button-nav2 {
+  background-color: #384bff;
+  padding: 6px 90px 8px 20px;
+}
+.NavBar2 .bh-nav2-side2 .bh-bg-button-nav2 button {
+  color: #0f0d1d;
+  background-color: white;
+  font-weight: 500;
+  padding: 6px 20px;
+  font-size: 10px;
+}
+.NavBar2 .bh-nav2-side2 a {
+  margin: 0 40px !important;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .NavBar ul,
+  .NavBar2 ul {
+    display: none;
+  }
+
+  .NavBar .bh-side2,
+  .NavBar2 .bh-nav2-side2 {
+    width: max-content;
+  }
+  .NavBar .bh-side2 button {
+    display: none;
+  }
+  .NavBar .bh-side2 .bh-NavBar-bars,
+  .NavBar2 .bh-nav2-side2 .bh-NavBar-bars {
+    display: ruby;
+  }
+  .open {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 30px;
+    position: absolute;
+    right: -15%;
+    top: 0px;
+    padding: 10px 20px;
+    background-color: #384bff;
+    color: white;
+    height: 100vh;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.555);
+    width: 40% !important;
+  }
+  .NavBar ul li a {
+    color: white;
+    margin: 50px 0 !important;
+  }
+  .NavBar ul .bh-close-menu,
+  .NavBar2 ul .bh-close-menu {
+    display: block;
+  }
+  .NavBar2 ul li a {
+    color: white;
+  }
+  .NavBar2 ul li {
+    width: 100%;
+  }
+  .NavBar2 .bh-nav2-img .bh-img-plane {
+    display: none;
+  }
+  .NavBar2 .bh-nav2-img img {
+    margin: 10px 20px;
+    width: 120px;
+  }
+  .NavBar2 ul {
+    margin-left: 0 !important;
+  }
+  .NavBar2 .bh-nav2-side2 a,
+  .NavBar2 .bh-nav2-side2 .bh-NavBar-bars {
+    color: #0f0d1d !important;
+  }
+  .NavBar2 .bh-nav2-side2 {
+    margin: 10px 20px;
+  }
+  .NavBar2 .bh-nav2-side2 a {
+    margin: 0 !important;
+    margin-right: 5px !important;
+    font-size: 15px;
+  }
+  .NavBar2 .bh-nav2-side2 .bh-nav2-triangal-btn {
+    display: none;
+  }
+  .bh-triangle-left {
+    display: none;
+  }
+}
