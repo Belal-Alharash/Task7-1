@@ -1,0 +1,48 @@
+.bh-title{
+  margin-left: 9px;
+}
+.bh-title .bh-title-h2 {
+  font-size: 14px;
+  color: #4355ff;
+  margin-inline: 5px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  margin-block: 0;
+}
+.bh-title-lineLeftArrow {
+  width: 25px;
+  height: 1px;
+  background: linear-gradient(to right, #4355ff, rgba(255, 255, 255, 0));
+}
+.bh-title-lineRightArrow {
+  width: 25px;
+  height: 1px;
+  background: linear-gradient(to left, #4355ff, rgba(255, 255, 255, 0));
+}
+.bh-title-iconLine {
+  position: relative;
+}
+.bh-title-leftarrow {
+  font-size: 15px;
+  position: absolute;
+  left: -9px;
+  color: #4355ff;
+}
+.bh-title-rightarrow {
+  font-size: 15px;
+  position: absolute;
+  right: -9px;
+  color: #4355ff;
+}
+.bh-title .bh-title-h2-white {
+  color: white;
+}
+.bh-title-lineLeftArrow-white {
+  background: linear-gradient(to right, white , rgba(255, 255, 255, 0));
+}
+.bh-title-lineRightArrow-white {
+  background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+}
+.bh-title-arrow-white {
+  color: white;
+}

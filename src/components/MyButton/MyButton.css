@@ -1,0 +1,17 @@
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 25px !important;
+  font-weight: bold;
+  transition: 2s;
+}
+button:hover {
+  background-color: rgba(56, 76, 255, 0.9);
+  transform: translate(25%);
+}
+button span {
+  margin-left: 5px;
+}

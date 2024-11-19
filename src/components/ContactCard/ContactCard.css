@@ -1,0 +1,56 @@
+.bh-contact-card {
+  border-radius: 20px;
+  background-color: #384bff;
+  padding-top: 15px;
+}
+.bh-contact-card .bh-contact-card-part {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px rgb(255, 255, 255, 0.3) solid;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  padding: 15px 0px 15px 0px;
+  margin-inline: 30px;
+}
+.bh-contact-card-part-border-none {
+  border: 0 !important;
+}
+.bh-contact-card .bh-contact-card-part .bh-contact-card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px white dashed;
+  border-radius: 50%;
+  font-size: 24px;
+}
+.bh-contact-card .bh-contact-card-part .bh-contact-card-info {
+  margin-left: 10px;
+}
+.bh-contact-card .bh-contact-card-part .bh-contact-card-info p {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.bh-contact-card
+  .bh-contact-card-part
+  .bh-contact-card-info
+  .bh-contact-card-info-num {
+  font-weight: bolder;
+  margin: 0;
+  font-size: 16px;
+}
+.bh-contact-card .bh-contact-card-video {
+  border-radius: 0 0 20px 20px;
+  height: 300px;
+  margin-top: 30px;
+}
+.bh-contact-card .bh-contact-card-video .bh-contact-card-videoplay {
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 0 20px 20px;
+}

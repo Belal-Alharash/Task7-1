@@ -1,0 +1,68 @@
+.bh-services-card {
+  padding: 25px;
+  background-color: #f3f7fb;
+  border: 1px #d4dcff solid;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.bh-services-card-icon-father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+  border: 1px #d4dcff solid;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.bh-services-card .bh-services-card-icon-father img {
+  width: 35px;
+  object-fit: cover;
+}
+.bh-services-card h3,
+.bh-services-card-video h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.bh-services-card p {
+  font-size: 14px;
+  color: #89909e;
+}
+.bh-services-card .bh-services-card-button {
+  background-color: transparent;
+  border: 1px solid #aab2d386;
+  color: #40404c;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.bh-services-card .bh-services-card-button:hover {
+  background-color: #f9850042;
+  color: #f98600;
+  border: 1px solid #f98600;
+}
+.bh-services-card-button span {
+  display: none;
+}
+.bh-services-card-video {
+  padding-block: 25px;
+  background-color: transparent;
+  color: white;
+  border-radius: 25px;
+}
+.bh-services-card-video p {
+  font-size: 14px;
+}
+.bh-services-card-number {
+  -webkit-text-stroke: 1px #46467e;
+  color: #18185e;
+  font-size: 32px;
+}
+
+.bh-services-card-video:hover {
+  .bh-services-card-number {
+    -webkit-text-stroke: 1px white;
+  }
+}

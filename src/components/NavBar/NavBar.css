@@ -6,7 +6,7 @@
   align-items: center;
   top: 0px;
   left: 50%;
-  z-index: 100;
+  z-index: 1000;
   transform: translate(-50%);
   border: 6px solid #c3c8ff;
   border-top: 0;
@@ -96,7 +96,7 @@
   position: fixed;
   top: 0px;
   left: 50%;
-  z-index: 100;
+  z-index: 1000;
   transform: translate(-50%);
   box-shadow: 0 4px 5px rgba(128, 128, 128, 0.5);
   font-weight: 500;

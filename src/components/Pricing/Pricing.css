@@ -1,0 +1,87 @@
+.bh-pricing {
+  position: relative;
+  margin-bottom: 280px;
+}
+.bh-pricing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bh-pricing-text h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.bh-pricing-button-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.bh-pricing-father-yearly {
+  border: #d4dcff 1px solid;
+  padding: 13px 5px;
+  border-radius: 25px;
+}
+.bh-pricing-monthly {
+  background-color: #384bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.bh-pricing-yearly {
+  padding: 8px 15px;
+  color: #445375;
+}
+.bh-pricing-arrow {
+  margin-left: 16px;
+}
+.bh-pricing-arrow span {
+  color: #495aff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+.bh-pricing-dimaond {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.bh-pricing-hand {
+  position: absolute;
+  bottom: 10%;
+  width: 130px;
+}
+
+@media (max-width: 768px) {
+  .bh-pricing-text span {
+    display: block;
+    text-align: center;
+  }
+  .bh-pricing-button-arrow {
+    flex-direction: column;
+  }
+  .bh-pricing-arrow {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bh-pricing-arrow span {
+    display: block;
+    margin: 0;
+  }
+  .bh-pricing-dimaond {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .bh-pricing-hand {
+    display: none;
+  }
+}

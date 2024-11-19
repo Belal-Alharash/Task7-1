@@ -1,0 +1,51 @@
+.bh-blog-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 20px 40px;
+  flex-wrap: wrap;
+}
+.bh-blog-text h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.bh-blog-cursore-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bh-blog-button {
+  padding: 0;
+  background-color: white;
+  border: 1px solid #aab2d3;
+  box-shadow: 3px 3px#aab2d3;
+  color: #aab2d3;
+  border-radius: 50% !important;
+  height: 40px;
+  width: 40px;
+}
+.bh-blog-button span {
+  margin: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bh-blog-button-makingleft {
+  transform: rotate(180deg);
+}
+.bh-blog-button-left {
+  margin-bottom: 10px;
+  margin-left: 6px;
+}
+.bh-blog-button-right {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .bh-blog-text span {
+    display: block;
+  }
+}

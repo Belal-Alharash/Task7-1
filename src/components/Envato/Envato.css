@@ -1,0 +1,31 @@
+.bh-envato-font {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bh-envato-line {
+  width: 33%;
+  border-bottom: 1px solid rgb(212, 220, 255);
+}
+.bh-envato-imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bh-envato-imgs .bh-envato-img {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .bh-envato-img-none {
+    display: none;
+  }
+  .bh-envato-line {
+    display: none;
+  }
+}

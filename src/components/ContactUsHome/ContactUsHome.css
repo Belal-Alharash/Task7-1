@@ -1,0 +1,51 @@
+.bh-ContactUsHome {
+  margin: auto;
+  background-color: #384bff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 25px 40px;
+  transform: translate( 0,-55%);
+}
+.bh-ContactUsHome-line {
+  position: absolute;
+  right: 0;
+  width: 43%;
+}
+.bh-ContactUsHome .bh-ContactUsHome-person {
+  width: 150px;
+}
+.bh-ContactUsHome h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.bh-ContactUsHome h3 span {
+  display: block;
+}
+.bh-ContactUsHome-title-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bh-ContactUsHome-button {
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+  font-weight: normal !important;
+  font-size: 14px;
+}
+.bh-ContactUsHome-button span{
+    font-size: 11px;
+    font-weight: normal !important;
+}
+.bh-ContactUsHome-button:hover {
+  background-color: #f9850042;
+  color: #f98600;
+  border: 1px solid #f98600;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 import './MyHero.css'
-import heroShape1 from "./../../assets/Images/heroShape1_1.webp"
-import heroShape2 from "./../../assets/Images/heroShape1_2.webp"
-import person from "./../../assets/Images/heroThumb1_1.webp"
-import profilePicture from "./../../assets/Images/profileShape1_1.webp"
-import circle from "./../../assets/Images/heroShape1_3.webp"
+import heroShape1 from "./../../assets/Images/MyHero/heroShape1_1.webp"
+import heroShape2 from "./../../assets/Images/MyHero/heroShape1_2.webp"
+import person from "./../../assets/Images/MyHero/heroThumb1_1.webp"
+import profilePicture from "./../../assets/Images/MyHero/profileShape1_1.webp"
+import circle from "./../../assets/Images/MyHero/heroShape1_3.webp"
 import { PiPulse } from "react-icons/pi";
 import { GiCheckMark } from "react-icons/gi";
 import { HiArrowNarrowRight } from "react-icons/hi";

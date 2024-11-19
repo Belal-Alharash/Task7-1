@@ -1,0 +1,51 @@
+.bh-members-card {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  border-radius: 20px 20px 15px 15px;
+  height: 379px;
+}
+.bh-members-card img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 80%;
+  object-fit: cover;
+  object-position: top;
+}
+.bh-members-card .bh-member-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 23%;
+  right: 5%;
+  z-index: 3;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #384bff;
+  color: white;
+  text-decoration: none;
+}
+.bh-members-card .bh-members-desc {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background-color: #18185e;
+  width: 100%;
+  border-radius: 0px 15px 15px 15px;
+  padding: 30px 0px 16px 0px;
+}
+.bh-members-card .bh-members-desc {
+  color: white;
+  text-align: center;
+}
+.bh-members-card .bh-members-desc h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.bh-members-card .bh-members-desc p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}

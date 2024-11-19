@@ -1,0 +1,18 @@
+.team-members .team-member-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 20px 40px;
+  flex-wrap: wrap;
+}
+.team-members .team-member-text h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+.bh-team-members-button {
+  color: white;
+  background-color: #384bff !important;
+  margin-left: auto;
+  margin-top: 10px;
+}

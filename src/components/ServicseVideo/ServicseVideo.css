@@ -1,0 +1,21 @@
+.bh-services-video-cards{
+    width: 100%;
+    background-color: #18185e;
+    padding: 120px 0 40px 0 ;
+}
+.bh-services-video{
+    position: relative;
+}
+.bh-services-videoplay-position{
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-75%);
+}
+.bh-services-videoplay{
+    width: 100%;
+    border-radius: 25px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}

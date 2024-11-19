@@ -1,8 +1,8 @@
 import React from 'react'
 import './SecondHero.css'
-import Hero2 from './../../assets/Images/SecondHero.webp'
-import lineElement from './../../assets/Images/line-element.webp'
-import element from './../../assets/Images/element.webp'
+import Hero2 from './../../assets/Images/SecondHero/SecondHero.webp'
+import lineElement from './../../assets/Images/SecondHero/line-element.webp'
+import element from './../../assets/Images/SecondHero/element.webp'
 import { IoIosArrowForward } from "react-icons/io";
 import { TbPointFilled } from "react-icons/tb";
 

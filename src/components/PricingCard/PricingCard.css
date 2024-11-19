@@ -1,0 +1,91 @@
+.bh-pricing-card{
+    border: 1px solid #d4dcff;
+    border-radius: 25px;
+    padding: 25px;
+}
+.bh-pricing-card .bh-pricing-card-header{
+    background-color: #384bff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+}
+.bh-pricing-card .bh-pricing-card-header p{
+    margin: 0;
+    font-family: "Rajdhani", sans-serif;
+}
+.bh-pricing-card .bh-pricing-card-header .bh-bh-pricing-card-header-p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.bh-pricing-card .bh-pricing-card-header p span{
+    font-size: 24px;
+}
+.bh-pricing-card .bh-pricing-card-header img{
+    width: 60px;
+}
+.bh-pricing-card .bh-pricing-card-body{
+    padding-block: 25px;
+}
+.bh-pricing-card .bh-pricing-card-body .bh-pricing-card-body-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bh-pricing-card .bh-pricing-card-body .bh-pricing-card-body-part .bh-quse{
+    font-size: 14px;
+    color: #5d6a88;
+}
+.bh-pricing-card .bh-pricing-card-body .bh-pricing-card-body-part div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bh-pricing-card .bh-pricing-card-body .bh-pricing-card-body-part div span{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #384bff;
+}
+.bh-pricing-card .bh-pricing-card-body .bh-pricing-card-body-part div .bh-Xmark{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #ff0f0f;
+}
+.bh-pricing-card .bh-pricing-card-body .bh-pricing-card-body-part div p{
+    margin: 0;
+    color: #4b597a;
+    font-size: 13px;
+}
+.bh-pricing-card .bh-pricing-card-button{
+    background-color: transparent;
+    color: #384bff;
+    border: 1px solid #d4dcff;
+    border-radius: 15px !important;
+    width: 100%;
+    margin: 0;
+}
+.bh-pricing-card .bh-pricing-card-button span,
+.bh-pricing-card .bh-pricing-card-button2 span{
+    margin-left: 10px;
+    color: #c3c8ff;
+}
+.bh-pricing-card .bh-pricing-card-button:hover,
+.bh-pricing-card .bh-pricing-card-button2:hover{
+    transform: translate(0) scale(1.05);
+    border: 1px solid #384bff;
+}
+.bh-pricing-card .bh-pricing-card-button2{
+    background-color: #18185e;
+    color: white;
+    border: 1px solid #d4dcff;
+    border-radius: 15px !important;
+    width: 100%;
+    margin: 0;
+}
+.bh-pricing-card .bh-pricing-card-header2{
+    background-color: #18185e !important;
+}

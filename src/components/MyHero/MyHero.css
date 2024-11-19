@@ -6,6 +6,7 @@
   border-radius: 30px 20px 10px 30px;
   position: relative;
   top: 32px;
+  margin-bottom: 32px !important;
 }
 .bh-hero .bh-hero-lines {
   position: absolute;
@@ -101,11 +102,11 @@
   display: contents;
 }
 .bh-hero .bh-part1 h2 .span3 {
-    display: contents;
+  display: contents;
 }
 .bh-hero .bh-part1 h2 .span4 {
-    display: contents;
-  }
+  display: contents;
+}
 .bh-hero .bh-part1 .bh-ul {
   display: flex;
   justify-content: start;
@@ -135,8 +136,8 @@
   border-radius: 25px;
   transition: 1s all;
 }
-.bh-hero .bh-part1 .bh-button2 .bh-arrow-span{
-    margin-left: 5px;
+.bh-hero .bh-part1 .bh-button2 .bh-arrow-span {
+  margin-left: 5px;
 }
 .bh-hero .bh-part1 .bh-button2:hover {
   background-color: rgba(249, 133, 0, 0.5);
@@ -301,7 +302,6 @@
     position: static;
     width: 50%;
     margin-block: 30px;
-
   }
   .bh-hero .bh-part1 {
     position: static;
@@ -343,7 +343,7 @@
   }
   .bh-hero .bh-part1 .bh-ul {
     display: block;
-    margin-block: 20px 10px ;
+    margin-block: 20px 10px;
   }
   .bh-hero .bh-part1 .bh-ul ul {
     color: white;

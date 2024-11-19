@@ -1,0 +1,55 @@
+.bh-test{
+    position: relative;
+    padding-bottom: 100px;
+}
+.bh-test-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bh-test-text h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.bh-test-scroll{
+    width: 35%;
+    height: 25px;
+    background-color: #ebedff;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+.bh-test-scroll div{
+    width: 40%;
+    height: 25px;
+    background-color: #384bff;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 15px;
+}
+.bh-test-cube-yellow{
+    color: #f2ad58;
+    font-size: 32px;
+    position: absolute;
+    bottom: 10%;
+    right: -4%;
+}
+.bh-test-cube-blue{
+    color: #146def;
+    font-size: 32px;
+    position: absolute;
+    top: -15%;
+    left: -4%;
+}
+
+@media (max-width: 768px) {
+    .bh-test-text span {
+      display: block;
+      text-align: center ;
+    }
+}

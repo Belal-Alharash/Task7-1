@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import Logo from "./../../assets/Images/logo.svg";
-import Plane from "./../../assets/Images/plane.webp";
+import Logo from "./../../assets/Images/Navbar/logo.svg";
+import Plane from "./../../assets/Images/Navbar/plane.webp";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";

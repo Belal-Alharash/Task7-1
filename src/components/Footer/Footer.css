@@ -1,0 +1,140 @@
+.bh-footer-bg {
+  background-color: #18185e;
+  color: white;
+  padding: 100px; /*for position: ;*/
+}
+.bh-footer-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.bh-footer-logo img {
+  width: 35px;
+}
+.bh-footer-logo span {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-family: "Rajdhani", sans-serif;
+}
+.bh-footer-part-p {
+  margin-block: 20px 40px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.bh-footer-icon {
+  color: white;
+  margin-right: 8px;
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 1s;
+}
+.bh-footer-icon:hover {
+  background-color: #f9850042;
+  color: #f98600;
+  border: 1px solid #f98600;
+}
+.bh-footer-lineLeftArrow {
+  width: 90px;
+  height: 2px;
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+  margin-block: 20px;
+  margin-left: 5px;
+}
+.bh-footer-h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.bh-footer-part2-a {
+  font-size: 18px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.bh-footer-part2-icon {
+  font-size: 28px;
+}
+.bh-footer-part3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.bh-footer-part3 img {
+  width: 27%;
+  margin-right: 20px;
+}
+.bh-footer-part3-text-date {
+  font-size: 16px;
+  color: #b7b7cd;
+  margin-bottom: 8px;
+}
+.bh-footer-part3-text-date span {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.bh-footer-part3 p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.bh-footer-part4-p {
+  color: white;
+  text-decoration: none;
+  margin-block: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.bh-footer-part4-p span {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.bh-footer-part4-form .bh-footer-part4-father-input input {
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  color: #616e8a;
+  padding: 20px 15px;
+}
+.bh-footer-part4-father-input {
+  position: relative;
+}
+.bh-footer-part4-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #384bff;
+  border-radius: 10px !important;
+  height: 55px;
+}
+.bh-footer-part4-button:hover {
+  transform: translate(0);
+}
+.bh-footer-part4-button span {
+  margin-left: 0;
+  color: white;
+}
+.bh-footer-part4-father-checkbox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+}
+.bh-footer-part4-father-checkbox input {
+  margin-right: 10px;
+}
+.bh-footer-part4-father-checkbox p {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+
+  a {
+    color: white;
+    font-size: 14px;
+  }
+}

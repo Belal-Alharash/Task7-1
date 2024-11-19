@@ -1,0 +1,65 @@
+
+.bh-test-card{
+    background-color: #384bff;
+    padding: 35px;
+    border-radius: 15px;
+    width: 100%;
+    position: relative;
+}
+.bh-test-star{
+    color: #fca21a;
+    font-size: 20px;
+}
+.bh-test-card .bh-test-card-opinion{
+    color: white;
+    font-size: 14px;
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 20px;
+}
+.bh-test-card-name-p1,
+.bh-test-card-name-p2{
+    margin: 0;
+    margin-left: 15px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+}
+.bh-test-card-name p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+.bh-test-card-name p:nth-child(2){
+    font-size: 16px;
+}
+.bh-test-card-comma{
+    color: white;
+    font-size: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bh-test-card-line{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+.bh-test-card-active{
+    background-color: white;
+}
+.bh-test-card-opinion-active{
+    color: #606d8a !important;
+}
+.bh-test-card-name-p1-active{
+    color: #393744;
+}
+.bh-test-card-name-p2-active{
+    color: #393744;
+}
+.bh-test-card-comma-active{
+    color: #c4c9ff;
+}
+.bh-test-card-line-active{
+    display: none;
+}
+
